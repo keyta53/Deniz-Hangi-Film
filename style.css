@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+
+}
+
+.baslik {
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: #a4c8cb;
+    border-radius: 10px 10PX 10px;
+}
+
+.container {
+    width: 900px;
+    height: auto;
+    border: 1px solid black;
+    background-color: #a4c8cb;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px 10PX 10px;
+}
+
+.buyukKutu {
+    width: 700px;
+
+    border: 1px solid black;
+    border-radius: 10px 10PX 10px;
+
+}
+
+.buyukYesil {
+    height: 925px;
+
+    background-color: #c1d0c1;
+    margin-left: 95px;
+
+}
+
+.buyukSosyalMedya {
+    height: 90px;
+    background-color: rgb(227, 209, 179);
+    margin-left: 95px;
+
+}
+
+.buyuk2Yesil {
+    height: 520px;
+    background-color: #c1d0c1;
+    margin-left: 95px;
+}
+
+.sosyal-medya ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    gap: 90px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+.sosyal-medya li i {
+    transition: all ease-in-out 260ms;
+
+}
+
+.sosyal-medya li i:hover {
+    color: #ff6a00;
+}
+
+.liste {
+
+    border: 3px solid;
+    border-color: white;
+    text-align: left;
+    padding: 30px;
+    margin: 20px 20px;
+    border-radius: 10px 10PX 10px;
+}
+
+.resim {
+    border: 3px solid;
+    border-color: white;
+    text-align: center;
+    padding: 3px;
+    margin: 20px 20px;
+    border-radius: 10px 10PX 10px;
+
+}
+
+.resim img {
+    width: 635px;
+    margin: auto;
+    border-radius: 10px 10PX 10px;
+    margin-top: 1%;
+
+}
+
+.liste p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.liste h3 {
+    text-align: justify;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.liste h2 ul li {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.video {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.btn {
+    width: 300px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #ff6a00;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 3px solid #dc5c00;
+    margin-top: 1%;
+    margin-left: 30%;
+
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: #fff;
+    border: 3px solid #ff6a00;
+}
